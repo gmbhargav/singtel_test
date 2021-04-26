@@ -32,7 +32,6 @@ public class ToDoTaskStepDef {
     @Before
     public void setUp(Scenario scenario) {
         loggerUtil.configureLogging();
-//        BrowserLib.launchUrl("http://todomvc.com/examples/vue/");
         LOGGER.info("-------Session Started-------");
     }
 
@@ -71,17 +70,26 @@ public class ToDoTaskStepDef {
         LOGGER.info("Task {} displayed as expected under {} filter", task, filter);
     }
 
+    @Then("I should see number of items left count is matching with active tasks")
+    public void i_should_see_active_tasks_matching_with_items_left() {
+        int numOfItemLeft = toDoPage.getNumberOfItemsLeft();
+        int numOfActiveTasks=toDoPage.getActiveTasks();
+        Assert.assertTrue("number of items left count not matching", numOfItemLeft == numOfActiveTasks);
+        LOGGER.info("Number of items left count matching expected {} actual {}", numOfActiveTasks, numOfItemLeft);
+
+    }
+
     @Then("I should see number of items left count {string} by {int}")
     public void i_should_see_number_of_items_count_by(String type, Integer cnt) {
-        int numBerOfItemLeft = toDoPage.getNumberOfItemsLeft();
+        int numOfItemLeft = toDoPage.getNumberOfItemsLeft();
         int expectedNumberOfItems;
         if (type.toLowerCase().contains("increase")) {
             expectedNumberOfItems = toDoPage.actNumberOfItems + cnt;
         } else {
             expectedNumberOfItems = toDoPage.actNumberOfItems - cnt;
         }
-        Assert.assertTrue("number of items left count not matching", numBerOfItemLeft == expectedNumberOfItems);
-        LOGGER.info("Number of items left count matching expected {} actual {}", expectedNumberOfItems, numBerOfItemLeft);
+        Assert.assertTrue("number of items left count not matching", numOfItemLeft == expectedNumberOfItems);
+        LOGGER.info("Number of items left count matching expected {} actual {}", expectedNumberOfItems, numOfItemLeft);
     }
 
     @Then("I should see number of items left displayed")
@@ -104,8 +112,27 @@ public class ToDoTaskStepDef {
 
     @When("I rename {string} Todo task as {string}")
     public void i_rename_Todo_task(String task,String newTask) {
-        Assert.assertTrue("Unable to mark task as completed", toDoPage.renameTask(task,newTask));
-        LOGGER.info("Task {} marked as completed as expected", task);
+        Assert.assertTrue("Unable to rename task", toDoPage.renameTask(task,newTask));
+        LOGGER.info("Task {} renamed as expected", task);
+    }
+
+    @When("I mark all tasks as completed")
+    public void i_mark_all_tasks_as_completed() {
+        Assert.assertTrue("Unable to mark tasks as completed", toDoPage.markAllTaskAsCompleted());
+        LOGGER.info("All Tasks marked as completed as expected");
+    }
+
+    @Then("I should see all tasks marked as completed")
+    public void i_should_see_all_task_marked_completed() {
+        Assert.assertTrue("All tasks not marked as completed ", toDoPage.verifyAllTaskAsCompleted());
+        LOGGER.info("All tasks marked as completed as expected ");
+    }
+
+    @Then("I should see {int} number of items left displayed")
+    public void i_should_n_see_number_of_items(int count) {
+        int numOfItemLeft = toDoPage.getNumberOfItemsLeft();
+        Assert.assertTrue("number of items left count not matching", numOfItemLeft == count);
+        LOGGER.info("Number of items left count matching expected {} actual {}", count, numOfItemLeft);
     }
 
     @After

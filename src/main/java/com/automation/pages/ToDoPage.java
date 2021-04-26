@@ -29,6 +29,9 @@ public class ToDoPage {
     @FindBy(xpath = "//li[contains(@class,'todo')]")
     List<WebElement> listTasks;
 
+    @FindBy(className = "todo")
+    List<WebElement> listActiveTasks;
+
     @FindBy(xpath = "//li[contains(@class,'todo')]//label")
     List<WebElement> labelsTasks;
 
@@ -52,6 +55,9 @@ public class ToDoPage {
 
     @FindBy(xpath = "//li[@class='todo editing']//input[@class='edit']")
     WebElement inputRenameTask;
+
+    @FindBy(xpath = "//label[text()='Mark all as complete']")
+    WebElement btnMarkAllCompleted;
 
     public boolean addTask(String task) {
         boolean flag = false;
@@ -139,19 +145,12 @@ public class ToDoPage {
             Actions action = new Actions(driver);
             action.moveToElement(driver.findElement(By.xpath(locator)))
                     .doubleClick().build().perform();
-            this.driver.findElement(By.xpath(locator)).click();
-//            WebElement inputElement = this.driver.findElement(By.xpath("//li[@class='todo editing']//input[@class='edit']"));
-             webDriverWait.until(ExpectedConditions.elementToBeClickable(inputRenameTask));
-//            waitTillElementIsPresent(inputElement);
-//            Thread.sleep(9000);
-            JavascriptExecutor jse = (JavascriptExecutor)driver;
-//            jse.executeScript("arguments[0].value='';", inputElement);
-            jse.executeScript("arguments[0].value='"+ newTask +"';", inputRenameTask);
-
-//            inputElement.click();
-//            inputRenameTask.sendKeys("");
-//            inputRenameTask.sendKeys(newTask);
-//            inputElement.sendKeys(Keys.ENTER);
+            LOGGER.info("double clicked");
+            for (int i = 0; i < 50; i++) {
+                inputRenameTask.sendKeys(Keys.BACK_SPACE);
+            }
+            inputRenameTask.sendKeys(newTask);
+            inputRenameTask.sendKeys(Keys.ENTER);
             flag = true;
         } catch (Exception e) {
             LOGGER.error("Exception {} while renaming task {}", e.toString(), task);
@@ -207,5 +206,39 @@ public class ToDoPage {
             return false;
         }
         return true;
+    }
+
+    public boolean markAllTaskAsCompleted() {
+        boolean flag = false;
+        try {
+            waitTillElementIsPresent(btnMarkAllCompleted);
+            btnMarkAllCompleted.click();
+            flag = true;
+        } catch (Exception e) {
+            LOGGER.error("Exception {} marking all tasks as completed", e.toString());
+        }
+        return flag;
+    }
+
+    public boolean verifyAllTaskAsCompleted() {
+        boolean flag = false;
+        try {
+            waitTillElementIsPresent(listTasks.get(0));
+            for (WebElement element : listTasks) {
+                if (element.getAttribute("class").contains("completed")) {
+                    flag = true;
+                } else {
+                    flag = false;
+                    break;
+                }
+            }
+        } catch (Exception e) {
+            LOGGER.error("Exception {} while verifying task {}", e.toString());
+        }
+        return flag;
+    }
+
+    public int getActiveTasks() {
+        return listActiveTasks.size();
     }
 }
