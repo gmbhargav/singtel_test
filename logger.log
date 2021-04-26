@@ -1,0 +1,291 @@
+2021-04-26 15:59:29  [BrowserLib] (main:) ************Launching Chrome Browser**********
+2021-04-26 15:59:29  [WebDriverManager] (main:) Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-26 15:59:29  [WebDriverManager] (main:) ====> http://tiny.cc/wdm-survey <====
+2021-04-26 15:59:29  [WebDriverManager] (main:) Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-26 15:59:29  [WebDriverManager] (main:) Exporting webdriver.chrome.driver as /Users/bmummane/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-04-26 15:59:34  [BrowserLib] (main:) -------Execution Started-------
+2021-04-26 15:59:37  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 15:59:37  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 15:59:41  [ToDoTaskStepDef] (main:) Task Create Repo added successfully
+2021-04-26 15:59:41  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 15:59:41  [ToDoPage] (main:) Actual Task name Create Repo, expected task name Create Repo 
+2021-04-26 15:59:41  [ToDoTaskStepDef] (main:) Task Create Repo displayed as expected under All filter
+2021-04-26 15:59:41  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 15:59:41  [ToDoPage] (main:) Actual Task name Create Repo, expected task name Create Repo 
+2021-04-26 15:59:41  [ToDoTaskStepDef] (main:) Task Create Repo displayed as expected under Active filter
+2021-04-26 15:59:41  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 15:59:41  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) Task Completed Task added successfully
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) Task Completed Task marked as completed as expected
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) Task Completed Task marked as completed as expected
+2021-04-26 15:59:42  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 15:59:42  [ToDoPage] (main:) Actual Task name Completed Task, expected task name Completed Task 
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) Task Completed Task displayed as expected under Completed filter
+2021-04-26 15:59:42  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 15:59:42  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 15:59:42  [ToDoPage] (main:) Actual Task name Completed Task, expected task name Completed Task 
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) Task Completed Task displayed as expected under All filter
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 15:59:42  [ToDoTaskStepDef] (main:) Task Number of Items added successfully
+2021-04-26 15:59:43  [ToDoTaskStepDef] (main:) Number of items left count displayed as expected 
+2021-04-26 15:59:43  [ToDoTaskStepDef] (main:) Task Number of Items marked as completed as expected
+2021-04-26 15:59:43  [ToDoTaskStepDef] (main:) Number of items left count matching expected 1 actual 1
+2021-04-26 15:59:43  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 15:59:43  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 15:59:43  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 15:59:43  [ToDoTaskStepDef] (main:) Task Rename Task added successfully
+2021-04-26 15:59:44  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 15:59:44  [ToDoPage] (main:) double clicked
+2021-04-26 15:59:45  [ToDoTaskStepDef] (main:) Task Rename Task renamed as expected
+2021-04-26 15:59:45  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 15:59:45  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 15:59:45  [ToDoPage] (main:) Actual Task name Number of Items 
+2021-04-26 15:59:45  [ToDoPage] (main:) Actual Task name Updated Task 
+2021-04-26 15:59:45  [ToDoPage] (main:) Actual Task name Updated Task, expected task name Updated Task 
+2021-04-26 15:59:45  [ToDoTaskStepDef] (main:) Task Updated Task displayed as expected under All filter
+2021-04-26 15:59:46  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 15:59:46  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 15:59:46  [ToDoPage] (main:) Actual Task name Number of Items 
+2021-04-26 15:59:46  [ToDoPage] (main:) Actual Task name Updated Task 
+2021-04-26 15:59:46  [ToDoTaskStepDef] (main:) Task Rename Task not displayed as expected under All filter
+2021-04-26 15:59:46  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 15:59:46  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 15:59:46  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 15:59:46  [ToDoTaskStepDef] (main:) Task Mark All Task1 added successfully
+2021-04-26 15:59:47  [ToDoTaskStepDef] (main:) Task Mark All Task2 added successfully
+2021-04-26 15:59:47  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 15:59:47  [ToDoTaskStepDef] (main:) All Tasks marked as completed as expected
+2021-04-26 15:59:47  [ToDoTaskStepDef] (main:) All tasks marked as completed as expected 
+2021-04-26 15:59:47  [ToDoTaskStepDef] (main:) Number of items left count matching expected 0 actual 0
+2021-04-26 15:59:47  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 15:59:47  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 15:59:47  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 15:59:48  [ToDoTaskStepDef] (main:) Task Clear Completed Task added successfully
+2021-04-26 15:59:48  [ToDoTaskStepDef] (main:) Task Clear Completed Task marked as completed as expected
+2021-04-26 15:59:48  [ToDoTaskStepDef] (main:) Filter Completed selected as expected 
+2021-04-26 15:59:48  [ToDoTaskStepDef] (main:) Cleared all completed tasks as expected 
+2021-04-26 16:00:08  [ToDoPage] (main:) Exception org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sinl112131m', ip: '192.168.10.146', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/67/9g9glwvx1m7...}, goog:chromeOptions: {debuggerAddress: localhost:53793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87737c6d23e07f9a37f2223b9ffa9c88 while verifying task Clear Completed Task
+2021-04-26 16:00:08  [ToDoTaskStepDef] (main:) Task Clear Completed Task not displayed as expected under All filter
+2021-04-26 16:00:28  [ToDoPage] (main:) Exception org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sinl112131m', ip: '192.168.10.146', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/67/9g9glwvx1m7...}, goog:chromeOptions: {debuggerAddress: localhost:53793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87737c6d23e07f9a37f2223b9ffa9c88 while verifying task Clear Completed Task
+2021-04-26 16:00:28  [ToDoTaskStepDef] (main:) Task Clear Completed Task not displayed as expected under Completed filter
+2021-04-26 16:00:28  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:13:31  [BrowserLib] (main:) ************Launching Chrome Browser**********
+2021-04-26 16:13:31  [WebDriverManager] (main:) Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-26 16:13:31  [WebDriverManager] (main:) ====> http://tiny.cc/wdm-survey <====
+2021-04-26 16:13:32  [WebDriverManager] (main:) Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-26 16:13:32  [WebDriverManager] (main:) Exporting webdriver.chrome.driver as /Users/bmummane/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-04-26 16:13:36  [BrowserLib] (main:) -------Execution Started-------
+2021-04-26 16:13:37  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:13:37  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:39  [ToDoTaskStepDef] (main:) Task Create Repo added successfully
+2021-04-26 16:13:39  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:13:39  [ToDoPage] (main:) Actual Task name Create Repo, expected task name Create Repo 
+2021-04-26 16:13:39  [ToDoTaskStepDef] (main:) Task Create Repo displayed as expected under All filter
+2021-04-26 16:13:39  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:13:39  [ToDoPage] (main:) Actual Task name Create Repo, expected task name Create Repo 
+2021-04-26 16:13:39  [ToDoTaskStepDef] (main:) Task Create Repo displayed as expected under Active filter
+2021-04-26 16:13:39  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:13:40  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:13:40  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:40  [ToDoTaskStepDef] (main:) Task Active Task added successfully
+2021-04-26 16:13:40  [ToDoTaskStepDef] (main:) Task Active Task2 added successfully
+2021-04-26 16:13:40  [ToDoTaskStepDef] (main:) Filter Active selected as expected 
+2021-04-26 16:13:40  [ToDoTaskStepDef] (main:) Number of items left count matching expected 3 actual 3
+2021-04-26 16:13:41  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:13:41  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:13:41  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:41  [ToDoTaskStepDef] (main:) Task Completed Task added successfully
+2021-04-26 16:13:41  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 16:13:41  [ToDoTaskStepDef] (main:) Task Completed Task marked as completed as expected
+2021-04-26 16:13:41  [ToDoTaskStepDef] (main:) Task Completed Task marked as completed as expected
+2021-04-26 16:13:41  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 16:13:41  [ToDoPage] (main:) Actual Task name Completed Task, expected task name Completed Task 
+2021-04-26 16:13:41  [ToDoTaskStepDef] (main:) Task Completed Task displayed as expected under Completed filter
+2021-04-26 16:13:41  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:13:41  [ToDoPage] (main:) Actual Task name Active Task 
+2021-04-26 16:13:41  [ToDoPage] (main:) Actual Task name Active Task2 
+2021-04-26 16:13:41  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 16:13:41  [ToDoPage] (main:) Actual Task name Completed Task, expected task name Completed Task 
+2021-04-26 16:13:41  [ToDoTaskStepDef] (main:) Task Completed Task displayed as expected under All filter
+2021-04-26 16:13:42  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:13:42  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:13:42  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:42  [ToDoTaskStepDef] (main:) Task Number of Items added successfully
+2021-04-26 16:13:42  [ToDoTaskStepDef] (main:) Number of items left count displayed as expected 
+2021-04-26 16:13:42  [ToDoTaskStepDef] (main:) Task Number of Items marked as completed as expected
+2021-04-26 16:13:42  [ToDoTaskStepDef] (main:) Number of items left count matching expected 3 actual 3
+2021-04-26 16:13:43  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:13:43  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:13:43  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:43  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:43  [ToDoTaskStepDef] (main:) Task Rename Task added successfully
+2021-04-26 16:13:43  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 16:13:44  [ToDoPage] (main:) double clicked
+2021-04-26 16:13:45  [ToDoTaskStepDef] (main:) Task Rename Task renamed as expected
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Active Task 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Active Task2 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Number of Items 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Updated Task 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Updated Task, expected task name Updated Task 
+2021-04-26 16:13:45  [ToDoTaskStepDef] (main:) Task Updated Task displayed as expected under All filter
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Active Task 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Active Task2 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Number of Items 
+2021-04-26 16:13:45  [ToDoPage] (main:) Actual Task name Updated Task 
+2021-04-26 16:13:45  [ToDoTaskStepDef] (main:) Task Rename Task not displayed as expected under All filter
+2021-04-26 16:13:46  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:13:46  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:13:46  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:46  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:46  [ToDoTaskStepDef] (main:) Task Mark All Task1 added successfully
+2021-04-26 16:13:47  [ToDoTaskStepDef] (main:) Task Mark All Task2 added successfully
+2021-04-26 16:13:47  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 16:13:47  [ToDoTaskStepDef] (main:) All Tasks marked as completed as expected
+2021-04-26 16:13:47  [ToDoTaskStepDef] (main:) All tasks marked as completed as expected 
+2021-04-26 16:13:47  [ToDoTaskStepDef] (main:) Number of items left count matching expected 0 actual 0
+2021-04-26 16:13:47  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:13:47  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:13:47  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:13:48  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 16:13:48  [ToDoTaskStepDef] (main:) Task Clear Completed Task added successfully
+2021-04-26 16:13:48  [ToDoTaskStepDef] (main:) Task Clear Completed Task marked as completed as expected
+2021-04-26 16:13:48  [ToDoTaskStepDef] (main:) Filter Completed selected as expected 
+2021-04-26 16:13:48  [ToDoTaskStepDef] (main:) Cleared all completed tasks as expected 
+2021-04-26 16:14:08  [ToDoPage] (main:) Exception org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sinl112131m', ip: '192.168.10.146', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/67/9g9glwvx1m7...}, goog:chromeOptions: {debuggerAddress: localhost:56651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d56525884469bf17860381a8966d102 while verifying task Clear Completed Task
+2021-04-26 16:14:08  [ToDoTaskStepDef] (main:) Task Clear Completed Task not displayed as expected under All filter
+2021-04-26 16:14:28  [ToDoPage] (main:) Exception org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sinl112131m', ip: '192.168.10.146', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/67/9g9glwvx1m7...}, goog:chromeOptions: {debuggerAddress: localhost:56651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d56525884469bf17860381a8966d102 while verifying task Clear Completed Task
+2021-04-26 16:14:28  [ToDoTaskStepDef] (main:) Task Clear Completed Task not displayed as expected under Completed filter
+2021-04-26 16:14:29  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:17:14  [BrowserLib] (main:) ************Launching Chrome Browser**********
+2021-04-26 16:17:14  [WebDriverManager] (main:) Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-26 16:17:14  [WebDriverManager] (main:) ====> http://tiny.cc/wdm-survey <====
+2021-04-26 16:17:15  [WebDriverManager] (main:) Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-26 16:17:15  [WebDriverManager] (main:) Exporting webdriver.chrome.driver as /Users/bmummane/.m2/repository/webdriver/chromedriver/mac64/90.0.4430.24/chromedriver
+2021-04-26 16:17:19  [BrowserLib] (main:) -------Execution Started-------
+2021-04-26 16:17:20  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:17:20  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:22  [ToDoTaskStepDef] (main:) Task Create Repo added successfully
+2021-04-26 16:17:22  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:17:22  [ToDoPage] (main:) Actual Task name Create Repo, expected task name Create Repo 
+2021-04-26 16:17:22  [ToDoTaskStepDef] (main:) Task Create Repo displayed as expected under All filter
+2021-04-26 16:17:22  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:17:22  [ToDoPage] (main:) Actual Task name Create Repo, expected task name Create Repo 
+2021-04-26 16:17:22  [ToDoTaskStepDef] (main:) Task Create Repo displayed as expected under Active filter
+2021-04-26 16:17:22  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:17:22  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:17:22  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:23  [ToDoTaskStepDef] (main:) Task Active Task added successfully
+2021-04-26 16:17:23  [ToDoTaskStepDef] (main:) Task Active Task2 added successfully
+2021-04-26 16:17:23  [ToDoTaskStepDef] (main:) Filter Active selected as expected 
+2021-04-26 16:17:23  [ToDoTaskStepDef] (main:) Number of items left count matching expected 3 actual 3
+2021-04-26 16:17:24  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:17:24  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:17:24  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:24  [ToDoTaskStepDef] (main:) Task Completed Task added successfully
+2021-04-26 16:17:24  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 16:17:24  [ToDoTaskStepDef] (main:) Task Completed Task marked as completed as expected
+2021-04-26 16:17:24  [ToDoTaskStepDef] (main:) Task Completed Task marked as completed as expected
+2021-04-26 16:17:24  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 16:17:24  [ToDoPage] (main:) Actual Task name Completed Task, expected task name Completed Task 
+2021-04-26 16:17:24  [ToDoTaskStepDef] (main:) Task Completed Task displayed as expected under Completed filter
+2021-04-26 16:17:25  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:17:25  [ToDoPage] (main:) Actual Task name Active Task 
+2021-04-26 16:17:25  [ToDoPage] (main:) Actual Task name Active Task2 
+2021-04-26 16:17:25  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 16:17:25  [ToDoPage] (main:) Actual Task name Completed Task, expected task name Completed Task 
+2021-04-26 16:17:25  [ToDoTaskStepDef] (main:) Task Completed Task displayed as expected under All filter
+2021-04-26 16:17:25  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:17:25  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:17:25  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:25  [ToDoTaskStepDef] (main:) Task Number of Items added successfully
+2021-04-26 16:17:25  [ToDoTaskStepDef] (main:) Number of items left count displayed as expected 
+2021-04-26 16:17:25  [ToDoTaskStepDef] (main:) Task Number of Items marked as completed as expected
+2021-04-26 16:17:25  [ToDoTaskStepDef] (main:) Number of items left count matching expected 3 actual 3
+2021-04-26 16:17:26  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:17:26  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:17:26  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:26  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:26  [ToDoTaskStepDef] (main:) Task Rename Task added successfully
+2021-04-26 16:17:26  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 16:17:27  [ToDoPage] (main:) double clicked
+2021-04-26 16:17:28  [ToDoTaskStepDef] (main:) Task Rename Task renamed as expected
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Active Task 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Active Task2 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Number of Items 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Updated Task 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Updated Task, expected task name Updated Task 
+2021-04-26 16:17:28  [ToDoTaskStepDef] (main:) Task Updated Task displayed as expected under All filter
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Create Repo 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Active Task 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Active Task2 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Completed Task 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Number of Items 
+2021-04-26 16:17:28  [ToDoPage] (main:) Actual Task name Updated Task 
+2021-04-26 16:17:28  [ToDoTaskStepDef] (main:) Task Rename Task not displayed as expected under All filter
+2021-04-26 16:17:29  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:17:29  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:17:29  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:29  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:29  [ToDoTaskStepDef] (main:) Task Mark All Task1 added successfully
+2021-04-26 16:17:29  [ToDoTaskStepDef] (main:) Task Mark All Task2 added successfully
+2021-04-26 16:17:29  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 16:17:29  [ToDoTaskStepDef] (main:) All Tasks marked as completed as expected
+2021-04-26 16:17:30  [ToDoTaskStepDef] (main:) All tasks marked as completed as expected 
+2021-04-26 16:17:30  [ToDoTaskStepDef] (main:) Number of items left count matching expected 0 actual 0
+2021-04-26 16:17:30  [ToDoTaskStepDef] (main:) -------Screen shot added-------
+2021-04-26 16:17:30  [ToDoTaskStepDef] (main:) -------Session Started-------
+2021-04-26 16:17:30  [BrowserLib] (main:) ** Launching to http://todomvc.com/examples/vue/***
+2021-04-26 16:17:30  [ToDoTaskStepDef] (main:) Filter All selected as expected 
+2021-04-26 16:17:31  [ToDoTaskStepDef] (main:) Task Clear Completed Task added successfully
+2021-04-26 16:17:31  [ToDoTaskStepDef] (main:) Task Clear Completed Task marked as completed as expected
+2021-04-26 16:17:31  [ToDoTaskStepDef] (main:) Filter Completed selected as expected 
+2021-04-26 16:17:31  [ToDoTaskStepDef] (main:) Cleared all completed tasks as expected 
+2021-04-26 16:17:51  [ToDoPage] (main:) Exception org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sinl112131m', ip: '192.168.10.146', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/67/9g9glwvx1m7...}, goog:chromeOptions: {debuggerAddress: localhost:57639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e8cad9748cdb13b4df4099d53f367ea0 while verifying task Clear Completed Task
+2021-04-26 16:17:51  [ToDoTaskStepDef] (main:) Task Clear Completed Task not displayed as expected under All filter
+2021-04-26 16:18:11  [ToDoPage] (main:) Exception org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'sinl112131m', ip: '192.168.10.146', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/67/9g9glwvx1m7...}, goog:chromeOptions: {debuggerAddress: localhost:57639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e8cad9748cdb13b4df4099d53f367ea0 while verifying task Clear Completed Task
+2021-04-26 16:18:11  [ToDoTaskStepDef] (main:) Task Clear Completed Task not displayed as expected under Completed filter
+2021-04-26 16:18:11  [ToDoTaskStepDef] (main:) -------Screen shot added-------
