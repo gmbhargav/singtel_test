@@ -18,8 +18,14 @@
     - Chrome Headless : ```mvn verify -Dbrowser=chrome-headless -Dcucumber.filter.tags=@todo_tasks```
     - Firefox         : ```mvn verify -Dbrowser=firefox -Dcucumber.filter.tags=@todo_tasks```
 
+- Test Scenarios available under                : ```src/test/resources/features/001_to_do_mvc.feature```
+- Test Steps(step definitions) available under  : ```src/test/java/com/automation/stepdefs/ToDoTaskStepDef.java```
+- Page Locators & Action methods available under: ```src/main/java/com/automation/pages/ToDoPage.java```
+
 ## Test Results Report
 - Refer to the below path for cucumber reports:
     ``` target/cucumber-advanced-reports/cucumber-html-reports```
     - Open ```target/cucumber-advanced-reports/cucumber-html-reports/overview-features.html```  for the detailed report
     - Screen shots captured and attached to the html report after every scenario.
+    
+  
